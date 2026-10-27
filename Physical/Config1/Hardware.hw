@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="4PP065_0351_P74" Type="4PP065.0351-P74" Version="1.0.4.0">
+    <Connector Name="IF5">
+      <Parameter ID="ActivateDevice" Value="1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="labBR" />
+    <Parameter ID="Simulation" Value="1" />
+    <Parameter ID="KeyMappingFile" Value="VC\4PP065_0351_P74.dis" />
+  </Module>
+</Hardware>

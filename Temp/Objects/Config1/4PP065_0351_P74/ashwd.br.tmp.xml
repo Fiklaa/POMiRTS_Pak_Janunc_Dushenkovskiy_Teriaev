@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<?hwc2hwd version="1.1"?>
+<HWD Version="2.0" xmlns="http://br-automation.com/AR/IO/HWD">
+  <Hardware Family="4" ID="4PP065.0351-P74" Modno="43366" UseType="1">
+    <Parameter ID="CompatibleCpuCode" Value="4PP065.0571-P74" />
+    <Parameter ID="FwLoadMethod" Value="17" Type="UDINT" />
+    <Parameter ID="Transparent" Value="1" Type="UDINT" />
+    <Parameter ID="HwcCpuSlot" Value="0" Type="UDINT" />
+    <Parameter ID="HwcShortName" Value="PP065" />
+    <Parameter ID="ArModno" Value="9149" Type="UDINT" />
+    <Resource ID="IO">
+      <Parameter ID="Transparent" Value="1" Type="UDINT" />
+      <Parameter ID="Classcode" Value="0x20000022" Type="UDINT" />
+      <Parameter ID="ARIOMaster" Value="1" Type="UDINT" />
+      <Channel ID="SerialNumber">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="0" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+        <Parameter ID="ChannelType" Value="SerialNumber" />
+      </Channel>
+      <Channel ID="ModuleID">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="1" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UINT" />
+        <Parameter ID="ChannelType" Value="GenericFuncCall" />
+        <Parameter ID="Function" Value="mtcxGetDeviceId" />
+      </Channel>
+      <Channel ID="PowerOnCycles">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="2" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+        <Parameter ID="ChannelType" Value="GenericFuncCall" />
+        <Parameter ID="Function" Value="mtcxGetPowerOnCycles" />
+      </Channel>
+      <Channel ID="OperatingHoursPP">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="3" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+        <Parameter ID="ChannelType" Value="GenericFuncCall" />
+        <Parameter ID="Function" Value="mtcxGetOperatingHoursPC" />
+        <Parameter ID="CyclicUpdate" Value="1" Type="UDINT" />
+      </Channel>
+      <Channel ID="BatteryStatusCPU">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="4" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="USINT" />
+        <Parameter ID="ChannelType" Value="Battery" />
+        <Parameter ID="BatteryDetectionMethod" Value="1" Type="UDINT" />
+        <Parameter ID="Ordinal" Value="2" Type="UDINT" />
+      </Channel>
+      <Channel ID="TemperatureCPU">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="5" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UINT" />
+        <Parameter ID="ChannelType" Value="Temp" />
+        <Parameter ID="Ordinal" Value="1" Type="UDINT" />
+      </Channel>
+      <Channel ID="TemperatureENV">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="6" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UINT" />
+        <Parameter ID="ChannelType" Value="Temp" />
+        <Parameter ID="Ordinal" Value="2" Type="UDINT" />
+      </Channel>
+      <Channel ID="SystemTime">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="7" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="DINT" />
+        <Parameter ID="ChannelType" Value="SystemTime" />
+      </Channel>
+      <Channel ID="IF5.NodeSwitch">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="8" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="USINT" />
+        <Parameter ID="ChannelType" Value="Node" />
+        <Parameter ID="Device" Value="PCI.IF5" />
+      </Channel>
+    </Resource>
+    <Resource ID="PCI">
+      <Parameter ID="Transparent" Value="1" Type="UDINT" />
+      <Parameter ID="Classcode" Value="0x20000000" Type="UDINT" />
+      <Parameter ID="OfferedBus" Value="PP45BUS" />
+      <Parameter ID="BusPrefix" Value="SS" />
+      <Parameter ID="BusMinSlot" Value="1" Type="UDINT" />
+      <Parameter ID="BusMaxSlot" Value="1" Type="UDINT" />
+      <Slot ID="SS1">
+        <Parameter ID="BusAddress" Value="0x0d" Type="UDINT" />
+      </Slot>
+      <Resource ID="SRAM">
+        <Parameter ID="BusAddress" Value="0x0c" Type="UDINT" />
+        <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        <Parameter ID="PCIFuncNo" Value="0" Type="UDINT" />
+      </Resource>
+      <Resource ID="PLK">
+        <Parameter ID="BusAddress" Value="0x0e" Type="UDINT" />
+        <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        <Resource ID="IF4">
+          <Parameter ID="FirmwareFile" Value="43364a0.epl" />
+          <Parameter ID="MACDetectionMethod" Value="1" Type="UDINT" />
+          <Parameter ID="PCIFuncNo" Value="0" Type="UDINT" />
+          <Parameter ID="OfferedBus" Value="PLIF" />
+          <Parameter ID="OfferedBus" Value="P2IF" />
+          <Parameter ID="InterfaceType" Value="POWERLINK" />
+          <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+          <Parameter ID="MemEnableIfArio" Value="1" Type="UDINT" />
+          <Parameter ID="IOSuffix" Value=":PLK.BUS" />
+          <Resource ID="ETH">
+            <Parameter ID="Transparent" Value="1" Type="UDINT" />
+            <Parameter ID="Classcode" Value="0x00000200" Type="UDINT" />
+            <Parameter ID="AutoPlug" Value="1" Type="UDINT" />
+            <Parameter ID="OfferedBus" Value="ETHERNET" />
+          </Resource>
+          <Channel ID="LinkOk">
+            <Parameter ID="Ext" Value="/INFO" />
+            <Parameter ID="Address" Value="0x8000001A" Type="UDINT" />
+            <Parameter ID="BitOffset" Value="0" Type="UDINT" />
+            <Parameter ID="Direction" Value="IN" />
+            <Parameter ID="Type" Value="BOOL" />
+          </Channel>
+        </Resource>
+        <Resource ID="IF4dummy">
+          <Parameter ID="PCIFuncNo" Value="1" Type="UDINT" />
+          <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        </Resource>
+      </Resource>
+      <Resource ID="IF5">
+        <Parameter ID="BusAddress" Value="0x0b" Type="UDINT" />
+        <Parameter ID="PCIFuncNo" Value="0" Type="UDINT" />
+        <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+        <Parameter ID="NodeDetectionMethod" Value="5" Type="UDINT" />
+        <Parameter ID="OfferedBus" Value="ETHERNET" />
+      </Resource>
+      <Resource ID="METAUSB">
+        <Parameter ID="BusAddress" Value="0x0f" Type="UDINT" />
+        <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        <Resource ID="METAFUNC0">
+          <Parameter ID="PCIFuncNo" Value="0" Type="UDINT" />
+          <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+          <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        </Resource>
+        <Resource ID="METAFUNC1">
+          <Parameter ID="PCIFuncNo" Value="1" Type="UDINT" />
+          <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+          <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        </Resource>
+        <Resource ID="METAFUNC2">
+          <Parameter ID="PCIFuncNo" Value="2" Type="UDINT" />
+          <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+          <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        </Resource>
+        <Resource ID="METAFUNC3">
+          <Parameter ID="PCIFuncNo" Value="3" Type="UDINT" />
+          <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+          <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        </Resource>
+        <Resource ID="METAFUNC4">
+          <Parameter ID="PCIFuncNo" Value="4" Type="UDINT" />
+          <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+          <Parameter ID="Transparent" Value="1" Type="UDINT" />
+          <Resource ID="IF6">
+            <Parameter ID="OfferedBus" Value="USB" />
+            <Parameter ID="PortNo" Value="0" Type="UDINT" />
+          </Resource>
+          <Resource ID="IF7">
+            <Parameter ID="OfferedBus" Value="USB" />
+            <Parameter ID="PortNo" Value="1" Type="UDINT" />
+          </Resource>
+        </Resource>
+        <Resource ID="METAFUNC5">
+          <Parameter ID="PCIFuncNo" Value="5" Type="UDINT" />
+          <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+          <Parameter ID="Transparent" Value="1" Type="UDINT" />
+          <Resource ID="IF6">
+            <Parameter ID="OfferedBus" Value="USB" />
+            <Parameter ID="PortNo" Value="0" Type="UDINT" />
+          </Resource>
+          <Resource ID="IF7">
+            <Parameter ID="OfferedBus" Value="USB" />
+            <Parameter ID="PortNo" Value="1" Type="UDINT" />
+          </Resource>
+        </Resource>
+      </Resource>
+    </Resource>
+  </Hardware>
+</HWD>

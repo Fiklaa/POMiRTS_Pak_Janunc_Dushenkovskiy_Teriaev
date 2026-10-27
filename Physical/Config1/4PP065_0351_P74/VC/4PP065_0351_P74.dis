@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="3.0"?>
+<PanelMap xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="Description" Value="Keymapping for 4PP065" />
+  <Property Name="HwFile" Value="4PP065.0351-P74.hwx" />
+  <Property Name="Name" Value="4PP065_0351_P74" />
+  <Property Name="NumLevel" Value="4" />
+  <Property Name="Type" Value="4PP065.0351-P74" />
+  <PanelItems>
+    <PanelItem Index="1">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="2">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="3">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="4">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="5">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="6">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="7">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="8">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="9">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="10">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="11">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="12">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="13">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="14">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="15">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="16">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="17">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="18">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="19">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="20">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="21">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="22">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="23">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="24">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="25">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="26">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="27">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="28">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="29">
+      <KeyLevels />
+    </PanelItem>
+    <PanelItem Index="30">
+      <KeyLevels />
+    </PanelItem>
+  </PanelItems>
+</PanelMap>

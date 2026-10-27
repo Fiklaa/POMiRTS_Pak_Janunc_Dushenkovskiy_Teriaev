@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /AM=* /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\lab_1_KVBO_07_23_TER.apj</ApjFullFileName>
+    <ProjectName>lab_1_KVBO_07_23_TER</ProjectName>
+    <ActiveConfigurationName>Config1</ActiveConfigurationName>
+    <LicenseDataFolder>C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Temp\Objects\Config1\4PP065_0351_P74</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

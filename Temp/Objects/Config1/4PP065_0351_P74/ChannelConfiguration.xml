@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 2.5.0.7?>
+<ChannelConfiguration xmlns="http://www.br-automation.com/AR/IO">
+  <Module ID="$root" Hardware="4PP065.0351-P74" HardwareModuleName="4PP065_0351_P74" ModuleID="1">
+    <Channel ID="SerialNumber" Description="Serial number" Ext="/HW" Address="0" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="SerialNumber" />
+    <Channel ID="ModuleID" Description="Module ID" Ext="/HW" Address="1" Direction="IN" Type="UINT" ChannelType="GenericFuncCall" Function="mtcxGetDeviceId" Sig_St_Uint="1" />
+    <Channel ID="PowerOnCycles" Description="PowerOnCycles of PC" Ext="/HW" Address="2" Direction="IN" Type="UDINT" ChannelType="GenericFuncCall" Function="mtcxGetPowerOnCycles" />
+    <Channel ID="OperatingHoursPP" Description="Operating hours of PP [h]" Ext="/HW" Address="3" Direction="IN" Type="UDINT" ChannelType="GenericFuncCall" Function="mtcxGetOperatingHoursPC" CyclicUpdate="1" />
+    <Channel ID="BatteryStatusCPU" Description="Battery status CPU (0 = battery low or missing, 1 = battery ok)" Ext="/HW" Address="4" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Battery" BatteryDetectionMethod="1" Ordinal="2" />
+    <Channel ID="TemperatureCPU" Description="Temperature CPU [1/10C]" Ext="/HW" Address="5" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="1" />
+    <Channel ID="TemperatureENV" Description="Temperature cooling plate [1/10C]" Ext="/HW" Address="6" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="2" />
+    <Channel ID="SystemTime" Description="System time at the start of the current task cycle [µs]" Ext="/HW" Address="7" Direction="IN" Type="DINT" Sig_St_Dint="1" ChannelType="SystemTime" />
+    <Channel ID="IF4.LinkOk" Description="Link state" FromVersion="P2.90" Ext="/INFO" Address="0x8000001A" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
+    <Channel ID="IF5.NodeSwitch" Description="Node switch" Ext="/HW" Address="8" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Node" Device="PCI.IF5" />
+  </Module>
+</ChannelConfiguration>

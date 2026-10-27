@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.5.2.102"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\"
+  TempDirectory="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Temp\"
+  AutomationStudioVersion="4.5.2.102"
+  AutomationStudioEdition="Standard"
+  CrossReference="false"
+  ActiveConfiguration="Config1"
+  CreateAnsiCDeclarations="false" />

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.5.2.102"?>
+<Objects>
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="134339346194304734" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="134327244639003948"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="134327244639163539"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="134339346195202084" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="134327244651344408" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="134327244651284689"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="134327244651324458"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="134327244651344408"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="134327244655563175" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="134327244655510243"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="134327244655533218"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="134327244655553274"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="134327244660020555" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="134327244659969275"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="134327244659990619"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="134327244660010706"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="134327244664196146" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="134327244664156235"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="134327244664176209"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="134327244664186187"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\Library\ANSIC.lby"
+    LogicalPath="Libraries.Library"
+    Type="Library"
+    LastWriteTime="134339346194912724" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\Library\Types.typ"
+    LogicalPath="Libraries.Library.Types.typ"
+    Type="File"
+    LastWriteTime="134339346194803393"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\Library\Constants.var"
+    LogicalPath="Libraries.Library.Constants.var"
+    Type="File"
+    LastWriteTime="134339346194823349"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\Library\Library.fun"
+    LogicalPath="Libraries.Library.Library.fun"
+    Type="File"
+    LastWriteTime="134339346194833314"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\Library\FB_Integrator.c"
+    LogicalPath="Libraries.Library.FB_Integrator.c"
+    Type="File"
+    LastWriteTime="134363533707879775"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\Library\FB_Motor.c"
+    LogicalPath="Libraries.Library.FB_Motor.c"
+    Type="File"
+    LastWriteTime="134363521299296415"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Libraries\Library\FB_Regulator.c"
+    LogicalPath="Libraries.Library.FB_Regulator.c"
+    Type="File"
+    LastWriteTime="134365269594779457"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Program\ANSIC.prg"
+    LogicalPath="Program"
+    Type="Program"
+    LastWriteTime="134327245090114043" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Program\Cyclic.c"
+    LogicalPath="Program.Cyclic.c"
+    Type="File"
+    LastWriteTime="134375607986412513"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Program\Init.c"
+    LogicalPath="Program.Init.c"
+    Type="File"
+    LastWriteTime="134375589183646996"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Program\Exit.c"
+    LogicalPath="Program.Exit.c"
+    Type="File"
+    LastWriteTime="134327245090068671"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Program\Types.typ"
+    LogicalPath="Program.Types.typ"
+    Type="File"
+    LastWriteTime="134327245090088567"
+    Private="true" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Logical\Program\Variables.var"
+    LogicalPath="Program.Variables.var"
+    Type="File"
+    LastWriteTime="134375597224514912"
+    Private="true" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="134327244693365024" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="134365344261883633"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="131865063240000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\Cpu.pkg"
+    LogicalPath="Config1.4PP065_0351_P74"
+    Type="Cpu"
+    LastWriteTime="134327244683828126" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\Cpu.sw"
+    LogicalPath="Config1.4PP065_0351_P74.Cpu.sw"
+    Type="File"
+    LastWriteTime="134365273297978733"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\Cpu.per"
+    LogicalPath="Config1.4PP065_0351_P74.Cpu.per"
+    Type="File"
+    LastWriteTime="134327244667097435"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\IoMap.iom"
+    LogicalPath="Config1.4PP065_0351_P74.IoMap.iom"
+    Type="File"
+    LastWriteTime="134327244667107434"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\PvMap.vvm"
+    LogicalPath="Config1.4PP065_0351_P74.PvMap.vvm"
+    Type="File"
+    LastWriteTime="134327244667117402"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\Connectivity\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.Connectivity"
+    Type="Package"
+    LastWriteTime="134327244667366132" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="134327244667356121" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\TextSystem\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.TextSystem"
+    Type="Package"
+    LastWriteTime="134327244667396015" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\UnitSystem\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.UnitSystem"
+    Type="Package"
+    LastWriteTime="134327244667435906" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="134327244667794951" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="134327244667535645" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="134327244667515698"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="134327244667535645"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="134327244667765030" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="134327244667645358" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="134327244667615434" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="134327244667635380" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="134327244667705193" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="134327244667695220" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="134327244667725143" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="134327244667755061" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="134327244667784976" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\mappControl\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.mappControl"
+    Type="Package"
+    LastWriteTime="134327244667834844" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\mappMotion\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.mappMotion"
+    Type="Package"
+    LastWriteTime="134327244667864765" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\mappServices\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.mappServices"
+    Type="Package"
+    LastWriteTime="134327244667904660" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\mappView\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.mappView"
+    Type="Package"
+    LastWriteTime="134327244667934581" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\mappCockpit\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.mappCockpit"
+    Type="Package"
+    LastWriteTime="134327244667974469" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\VC\Package.pkg"
+    LogicalPath="Config1.4PP065_0351_P74.VC"
+    Type="Package"
+    LastWriteTime="134327244684995358" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\4PP065_0351_P74\VC\4PP065_0351_P74.dis"
+    LogicalPath="Config1.4PP065_0351_P74.VC.4PP065_0351_P74.dis"
+    Type="File"
+    LastWriteTime="134327244685085046"
+    Private="false" />
+  <Object
+    Path="C:\Users\admin\Desktop\KVBO_07_23_MIRTS_TER\lab_1_KVBO_07_23_TER\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="134339275577170144"
+    Private="false" />
+</Objects>

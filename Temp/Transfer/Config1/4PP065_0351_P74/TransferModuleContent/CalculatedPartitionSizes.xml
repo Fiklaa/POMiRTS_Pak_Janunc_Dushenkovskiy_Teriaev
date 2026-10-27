@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CFG>
+  <PROJECT ID="labBR" OSVERSION="D4.52" INITIALTRANSFER="true" />
+  <FILESYSTEM>
+    <VOL ID="0" PARTITIONS="1">
+      <PARTITION ID="0" LABEL="SYSTEM" MINSIZE="164048984" />
+    </VOL>
+  </FILESYSTEM>
+</CFG>

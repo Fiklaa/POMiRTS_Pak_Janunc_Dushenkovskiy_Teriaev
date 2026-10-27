@@ -1,0 +1,8 @@
+{
+  global:
+    FB_Integrator;
+    FB_Motor;
+    FB_Regulator;
+  local:
+    *;
+ };
